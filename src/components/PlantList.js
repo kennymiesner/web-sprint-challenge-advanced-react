@@ -1,5 +1,5 @@
-import React, { Component } from "react";
-import axios from "axios";
+import React, { Component } from "react"
+import axios from "axios"
 
 export default class PlantList extends Component {
   // add state with a property called "plants" - initialize as an empty array
@@ -19,7 +19,7 @@ export default class PlantList extends Component {
           ...this.state,
           plants: res.data
         })
-      });
+      })
   }
 
   /*********  DON'T CHANGE ANYTHING IN THE RENDER FUNCTION *********/
@@ -48,6 +48,6 @@ export default class PlantList extends Component {
           </div>
         ))}
       </main>
-    );
+    )
   }
 }

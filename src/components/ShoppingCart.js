@@ -1,9 +1,9 @@
-import React from "react";
+import React from "react"
 
 /********* DO NOT DO ANYTHING IN THIS COMPONENT *********/
 
 export default function ShoppingCart(props) {
-  const total = props.cart.reduce((sum, d) => sum + d.price, 0);
+  const total = props.cart.reduce((sum, d) => sum + d.price, 0)
   return (
     <div className="cart">
       {props.cart.map((plant) => (
@@ -31,5 +31,5 @@ export default function ShoppingCart(props) {
         </button>
       </div>
     </div>
-  );
+  )
 }
