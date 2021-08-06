@@ -113,7 +113,7 @@ const plantsData = [
       "Originally from South Africa, Jade loves sun-drenched beaches, the occasional surf, and sandy soils. Too much water too often doesn't sit well with her, so maybe offer her a beer? (Please don't give your plants beer).",
     price: 15,
   },
-];
+]
 
 export const handlers = [
   // Handles a GET /plants request
@@ -121,6 +121,6 @@ export const handlers = [
     return res(
       ctx.status(200),
       ctx.json(plantsData),
-    );
+    )
   }),
 ]
